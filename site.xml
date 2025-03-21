@@ -1,4 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <feature url="features/com.brtchip.ft9xx.feature_2.8.2.202503190937.jar" id="com.brtchip.ft9xx.feature" version="2.8.2.202503190937" os="win32" ws="win32" nl="en_001" arch="x86_64" patch="true"/>
+   <description name="Bridgetek FT9xx Plugin" url="https://github.com/Bridgetek/FT9xx-Eclipse-Plugin">
+      Eclipse plugin to support Bridgetek FT9xx programming.
+   </description>
+   <feature url="features/com.brtchip.ft9xx.feature_2.8.2.202503211517.jar" id="com.brtchip.ft9xx.feature" version="2.8.2.202503211517" os="win32" ws="win32" nl="en_001" arch="x86_64" patch="true">
+      <category name="Bridgetek"/>
+   </feature>
+   <category-def name="Bridgetek" label="Bridgetek FT9xx">
+      <description>
+         Eclipse plugin to support Bridgetek FT9xx programming.
+      </description>
+   </category-def>
 </site>
